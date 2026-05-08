@@ -11,11 +11,11 @@ import (
 
 	"github.com/google/uuid"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/pagination"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/timezone"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/usagestats"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/internal/pkg/pagination"
+	"github.com/Kluckyyou/overflowai/internal/pkg/timezone"
+	"github.com/Kluckyyou/overflowai/internal/pkg/usagestats"
+	"github.com/Kluckyyou/overflowai/internal/service"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

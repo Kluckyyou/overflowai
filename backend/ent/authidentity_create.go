@@ -11,10 +11,10 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/Wei-Shaw/sub2api/ent/authidentity"
-	"github.com/Wei-Shaw/sub2api/ent/authidentitychannel"
-	"github.com/Wei-Shaw/sub2api/ent/identityadoptiondecision"
-	"github.com/Wei-Shaw/sub2api/ent/user"
+	"github.com/Kluckyyou/overflowai/ent/authidentity"
+	"github.com/Kluckyyou/overflowai/ent/authidentitychannel"
+	"github.com/Kluckyyou/overflowai/ent/identityadoptiondecision"
+	"github.com/Kluckyyou/overflowai/ent/user"
 )
 
 // AuthIdentityCreate is the builder for creating a AuthIdentity entity.

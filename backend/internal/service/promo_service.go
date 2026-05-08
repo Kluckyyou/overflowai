@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	infraerrors "github.com/Wei-Shaw/sub2api/internal/pkg/errors"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/pagination"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	infraerrors "github.com/Kluckyyou/overflowai/internal/pkg/errors"
+	"github.com/Kluckyyou/overflowai/internal/pkg/pagination"
 )
 
 var (

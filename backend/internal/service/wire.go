@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"time"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/internal/config"
-	"github.com/Wei-Shaw/sub2api/internal/payment"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/logger"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/internal/config"
+	"github.com/Kluckyyou/overflowai/internal/payment"
+	"github.com/Kluckyyou/overflowai/internal/pkg/logger"
 	"github.com/google/wire"
 	"github.com/redis/go-redis/v9"
 )

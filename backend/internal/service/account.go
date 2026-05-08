@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/config"
-	"github.com/Wei-Shaw/sub2api/internal/domain"
+	"github.com/Kluckyyou/overflowai/internal/config"
+	"github.com/Kluckyyou/overflowai/internal/domain"
 )
 
 type Account struct {

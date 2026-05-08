@@ -5,9 +5,9 @@ package repository
 import (
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/pkg/pagination"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/usagestats"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/Kluckyyou/overflowai/internal/pkg/pagination"
+	"github.com/Kluckyyou/overflowai/internal/pkg/usagestats"
+	"github.com/Kluckyyou/overflowai/internal/service"
 	"github.com/google/uuid"
 )
 

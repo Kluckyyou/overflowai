@@ -7,10 +7,10 @@ import (
 	"log"
 	"time"
 
-	_ "github.com/Wei-Shaw/sub2api/ent/runtime"
-	"github.com/Wei-Shaw/sub2api/internal/config"
-	"github.com/Wei-Shaw/sub2api/internal/repository"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	_ "github.com/Kluckyyou/overflowai/ent/runtime"
+	"github.com/Kluckyyou/overflowai/internal/config"
+	"github.com/Kluckyyou/overflowai/internal/repository"
+	"github.com/Kluckyyou/overflowai/internal/service"
 )
 
 func main() {

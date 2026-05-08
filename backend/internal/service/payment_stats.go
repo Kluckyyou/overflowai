@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/ent/paymentauditlog"
-	"github.com/Wei-Shaw/sub2api/ent/paymentorder"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/ent/paymentauditlog"
+	"github.com/Kluckyyou/overflowai/ent/paymentorder"
 )
 
 // --- Dashboard & Analytics ---

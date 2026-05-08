@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/Wei-Shaw/sub2api/internal/payment"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/Kluckyyou/overflowai/internal/payment"
+	"github.com/Kluckyyou/overflowai/internal/service"
 
 	"github.com/gin-gonic/gin"
 )

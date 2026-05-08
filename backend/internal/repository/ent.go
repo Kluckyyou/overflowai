@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/internal/config"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/timezone"
-	"github.com/Wei-Shaw/sub2api/migrations"
+	"github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/internal/config"
+	"github.com/Kluckyyou/overflowai/internal/pkg/timezone"
+	"github.com/Kluckyyou/overflowai/migrations"
 
 	"entgo.io/ent/dialect"
 	entsql "entgo.io/ent/dialect/sql"

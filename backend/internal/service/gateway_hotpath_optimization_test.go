@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/config"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/ctxkey"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/usagestats"
+	"github.com/Kluckyyou/overflowai/internal/config"
+	"github.com/Kluckyyou/overflowai/internal/pkg/ctxkey"
+	"github.com/Kluckyyou/overflowai/internal/pkg/usagestats"
 	gocache "github.com/patrickmn/go-cache"
 	"github.com/stretchr/testify/require"
 )

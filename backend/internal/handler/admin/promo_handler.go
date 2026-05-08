@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/handler/dto"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/pagination"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/response"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/Kluckyyou/overflowai/internal/handler/dto"
+	"github.com/Kluckyyou/overflowai/internal/pkg/pagination"
+	"github.com/Kluckyyou/overflowai/internal/pkg/response"
+	"github.com/Kluckyyou/overflowai/internal/service"
 
 	"github.com/gin-gonic/gin"
 )

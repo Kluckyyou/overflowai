@@ -14,14 +14,14 @@ import (
 	"strings"
 	"time"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/ent/authidentity"
-	"github.com/Wei-Shaw/sub2api/ent/authidentitychannel"
-	infraerrors "github.com/Wei-Shaw/sub2api/internal/pkg/errors"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/httpclient"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/logger"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/pagination"
-	"github.com/Wei-Shaw/sub2api/internal/util/httputil"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/ent/authidentity"
+	"github.com/Kluckyyou/overflowai/ent/authidentitychannel"
+	infraerrors "github.com/Kluckyyou/overflowai/internal/pkg/errors"
+	"github.com/Kluckyyou/overflowai/internal/pkg/httpclient"
+	"github.com/Kluckyyou/overflowai/internal/pkg/logger"
+	"github.com/Kluckyyou/overflowai/internal/pkg/pagination"
+	"github.com/Kluckyyou/overflowai/internal/util/httputil"
 )
 
 // AdminService interface defines admin management operations

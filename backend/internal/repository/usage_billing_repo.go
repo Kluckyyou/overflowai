@@ -6,9 +6,9 @@ import (
 	"errors"
 	"strings"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/logger"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/internal/pkg/logger"
+	"github.com/Kluckyyou/overflowai/internal/service"
 )
 
 type usageBillingRepository struct {

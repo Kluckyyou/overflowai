@@ -4,11 +4,11 @@ import (
 	"context"
 	"strings"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/ent/promocode"
-	"github.com/Wei-Shaw/sub2api/ent/promocodeusage"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/pagination"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/ent/promocode"
+	"github.com/Kluckyyou/overflowai/ent/promocodeusage"
+	"github.com/Kluckyyou/overflowai/internal/pkg/pagination"
+	"github.com/Kluckyyou/overflowai/internal/service"
 
 	entsql "entgo.io/ent/dialect/sql"
 )

@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/internal/payment"
-	infraerrors "github.com/Wei-Shaw/sub2api/internal/pkg/errors"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/internal/payment"
+	infraerrors "github.com/Kluckyyou/overflowai/internal/pkg/errors"
 )
 
 func TestBuildCreateOrderResponseDefaultsToOrderCreated(t *testing.T) {

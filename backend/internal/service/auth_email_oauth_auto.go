@@ -7,10 +7,10 @@ import (
 	"net/mail"
 	"strings"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/ent/authidentity"
-	infraerrors "github.com/Wei-Shaw/sub2api/internal/pkg/errors"
-	"github.com/Wei-Shaw/sub2api/internal/pkg/logger"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/ent/authidentity"
+	infraerrors "github.com/Kluckyyou/overflowai/internal/pkg/errors"
+	"github.com/Kluckyyou/overflowai/internal/pkg/logger"
 )
 
 type EmailOAuthIdentityInput struct {

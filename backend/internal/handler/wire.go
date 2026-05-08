@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/Wei-Shaw/sub2api/internal/handler/admin"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/Kluckyyou/overflowai/internal/handler/admin"
+	"github.com/Kluckyyou/overflowai/internal/service"
 
 	"github.com/google/wire"
 )

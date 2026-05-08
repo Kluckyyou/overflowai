@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/Wei-Shaw/sub2api/internal/config"
+	"github.com/Kluckyyou/overflowai/internal/config"
 	"github.com/stretchr/testify/require"
 )
 

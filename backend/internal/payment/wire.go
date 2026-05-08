@@ -6,8 +6,8 @@ import (
 	"log/slog"
 	"strings"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/internal/config"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/internal/config"
 	"github.com/google/wire"
 )
 

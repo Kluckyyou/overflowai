@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/Kluckyyou/overflowai/internal/service"
 )
 
 // --- Plan Repository ---

@@ -1,0 +1,22 @@
+[Unit]
+Description=OverflowAI Data Management Daemon
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=overflowai
+Group=overflowai
+WorkingDirectory=/opt/overflowai
+ExecStart=/opt/overflowai/datamanagementd \
+  -socket-path /tmp/overflowai-datamanagement.sock \
+  -sqlite-path /var/lib/overflowai/datamanagement/datamanagementd.db \
+  -version 1.0.0
+Restart=always
+RestartSec=5s
+LimitNOFILE=100000
+NoNewPrivileges=true
+PrivateTmp=false
+
+[Install]
+WantedBy=multi-user.target

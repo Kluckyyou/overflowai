@@ -1,4 +1,4 @@
-# Sub2API
+# OverflowAI
 
 <div align="center">
 
@@ -8,30 +8,29 @@
 [![Redis](https://img.shields.io/badge/Redis-7+-DC382D.svg)](https://redis.io/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](https://www.docker.com/)
 
-<a href="https://trendshift.io/repositories/21823" target="_blank"><img src="https://trendshift.io/api/badge/repositories/21823" alt="Wei-Shaw%2Fsub2api | Trendshift" width="250" height="55"/></a>
-
 **AI API 网关平台 - 订阅配额分发管理**
 
 [English](README.md) | 中文 | [日本語](README_JA.md)
 
 </div>
 
-> **Sub2API 官方仅使用  `sub2api.org` 与 `pincc.ai` 两个域名。其他使用 Sub2API 名义的网站可能为第三方部署或服务，与本项目无关，请自行甄别。**
+> OverflowAI is self-hosted by default. Configure your own trusted domain for production deployments.
+
 ---
 
 ## 在线体验
 
-体验地址：**[https://demo.sub2api.org/](https://demo.sub2api.org/)**
+体验地址：**[http://localhost:8080/](http://localhost:8080/)**
 
 演示账号（共享演示环境；自建部署不会自动创建该账号）：
 
 | 邮箱 | 密码 |
 |------|------|
-| admin@sub2api.org | admin123 |
+| admin@overflowai.local | admin123 |
 
 ## 项目概述
 
-Sub2API 是一个 AI API 网关平台，用于分发和管理 AI 产品订阅的 API 配额。用户通过平台生成的 API Key 调用上游 AI 服务，平台负责鉴权、计费、负载均衡和请求转发。
+OverflowAI 是一个 AI API 网关平台，用于分发和管理 AI 产品订阅的 API 配额。用户通过平台生成的 API Key 调用上游 AI 服务，平台负责鉴权、计费、负载均衡和请求转发。
 
 ## 核心功能
 
@@ -44,79 +43,6 @@ Sub2API 是一个 AI API 网关平台，用于分发和管理 AI 产品订阅的
 - **内置支付系统** - 支持 EasyPay 易支付、支付宝官方、微信官方、Stripe，用户自助充值，无需独立部署支付服务（[配置指南](docs/PAYMENT_CN.md)）
 - **管理后台** - Web 界面进行监控和管理
 - **外部系统集成** - 支持通过 iframe 嵌入外部系统（如工单等），扩展管理后台功能
-
-## ❤️ 赞助商
-
-> [想出现在这里？](mailto:support@pincc.ai)
-
-<table>
-<tr>
-<td width="180" align="center" valign="middle"><a href="https://shop.pincc.ai/"><img src="assets/partners/logos/pincc-logo.png" alt="pincc" width="150"></a></td>
-<td valign="middle"><b><a href="https://shop.pincc.ai/">PinCC</a></b> 是基于 Sub2API 搭建的官方中转服务，提供 Claude Code、Codex、Gemini 等主流模型的稳定中转，开箱即用，免去自建部署与运维烦恼。</td>
-</tr>
-
-<tr>
-<td width="180"><a href="https://www.packyapi.com/register?aff=sub2api"><img src="assets/partners/logos/packycode.png" alt="PackyCode" width="150"></a></td>
-<td>感谢 PackyCode 赞助了本项目！PackyCode 是一家稳定、高效的API中转服务商，提供 Claude Code、Codex、Gemini 等多种中转服务。PackyCode 为本软件的用户提供了特别优惠，使用<a href="https://www.packyapi.com/register?aff=sub2api">此链接</a>注册并在充值时填写"sub2api"优惠码，首次充值可以享受9折优惠！</td>
-</tr>
-
-<tr>
-<td width="180"><a href="https://poixe.com/i/sub2api"><img src="assets/partners/logos/poixe.png" alt="PoixeAI" width="150"></a></td>
-<td>感谢 Poixe AI 赞助了本项目！Poixe AI 提供可靠的 AI 模型接口服务，您可以使用平台提供的 LLM API 接口轻松构建 AI 产品，同时也可以成为供应商，为平台提供大模型资源以赚取收益。通过 <a href="https://poixe.com/i/sub2api">此链接</a> 专属链接注册，充值额外赠送 $5 美金</td>
-</tr>
-
-<tr>
-<td width="180"><a href="https://ctok.ai"><img src="assets/partners/logos/ctok.png" alt="CTok" width="150"></a></td>
-<td>感谢 CTok.ai 赞助了本项目！CTok.ai 致力于打造一站式 AI 编程工具服务平台。我们提供 Claude Code 专业套餐及技术社群服务，同时支持 Google Gemini 和 OpenAI Codex。通过精心设计的套餐方案和专业的技术社群，为开发者提供稳定的服务保障和持续的技术支持，让 AI 辅助编程真正成为开发者的生产力工具。点击<a href="https://ctok.ai">这里</a>注册！</td>
-</tr>
-
-<tr>
-<td width="180"><a href="https://code.silkapi.com/"><img src="assets/partners/logos/silkapi.png" alt="silkapi" width="150"></a></td>
-<td>感谢 丝绸API 赞助了本项目！ <a href="https://code.silkapi.com/">丝绸API</a> 是基于 Sub2API 搭建的中转服务，专注于提供 Codex 高速稳定API中转。</td>
-</tr>
-
-<tr>
-<td width="180"><a href="https://ylscode.com/"><img src="assets/partners/logos/ylscode.png" alt="ylscode" width="150"></a></td>
-<td>感谢 伊莉思Code 赞助了本项目！ <a href="https://ylscode.com/">伊莉思Code</a> 致力于构建安全的企业级Coding Agent生产力服务，提供稳定快速的 Codex / Claude / Gemini 订阅服务与即用即付API多种方案灵活选择，限时注册赠送 3 天 Codex 试用福利！</td>
-</tr>
-
-<tr>
-<td width="180"><a href="https://www.aicodemirror.com/register?invitecode=KMVZQM"><img src="assets/partners/logos/AICodeMirror.jpg" alt="AICodeMirror" width="150"></a></td>
-<td>感谢 AICodeMirror 赞助了本项目！AICodeMirror 提供 Claude Code / Codex / Gemini CLI 官方高稳定性中转服务，企业级并发、快速开票、7×24 小时专属技术支持。Claude Code / Codex / Gemini 官方通道低至原价 38% / 2% / 9%，充值更享额外折扣！AICodeMirror 为 sub2api 用户提供专属福利：通过<a href="https://www.aicodemirror.com/register?invitecode=KMVZQM">此链接</a>注册，首次充值立享 8 折优惠，企业客户最高可享 75 折！</td>
-</tr>
-
-<tr>
-<td width="180"><a href="https://aigocode.com/invite/SUB2API"><img src="assets/partners/logos/aigocode.png" alt="AIGoCode" width="150"></a></td>
-<td>感谢 AIGoCode 赞助了本项目！AIGoCode 是一站式集成 Claude Code、Codex 以及最新 Gemini 模型的综合平台，为您提供稳定、高效、高性价比的 AI 编程服务。平台提供灵活的订阅方案，零封号风险，免 VPN 直连，响应极速。AIGoCode 为 sub2api 用户准备了专属福利：通过<a href="https://aigocode.com/invite/SUB2API">此链接</a>注册，首次充值可额外获得 10% 赠送额度！</td>
-</tr>
-
-<tr>
-<td width="180"><a href="https://shop.bmoplus.com/?utm_source=github"><img src="assets/partners/logos/bmoplus.jpg" alt="bmoplus" width="150"></a></td>
-<td>感谢 BmoPlus 赞助了本项目！BmoPlus 是一家专为AI订阅重度用户打造的可靠 AI 账号代充服务商，提供稳定的 ChatGPT Plus / ChatGPT Pro(全程质保) / Claude Pro / Super Grok / Gemini Pro 的官方代充&成品账号。 通过<a href="https://shop.bmoplus.com/?utm_source=github">BmoPlus AI成品号专卖/代充</a>注册下单的用户，可享GPT 官网订阅一折 的震撼价格！</td>
-</tr>
-
-<tr>
-<td width="180"><a href="https://bestproxy.com/?keyword=a2e8iuol"><img src="assets/partners/logos/bestproxy.png" alt="bestproxy" width="150"></a></td>
-<td>感谢 Bestproxy 赞助了本项目！<a href="https://bestproxy.com/?keyword=a2e8iuol">Bestproxy</a> 是一家提供高纯度住宅IP，支持一号一IP独享，结合真实家庭网络与指纹隔离，可实现链路环境隔离，降低关联风控概率。</td>
-</tr>
-
-<tr>
-<td width="180"><a href="https://pateway.ai/?ch=1tsfr51"><img src="assets/partners/logos/pateway.png" alt="pateway" width="150"></a></td>
-<td>感谢 PatewayAI 赞助了本项目！PatewayAI 是一家面向重度 AI 开发者、专注官方直连的高品质模型 API 中转服务商。提供 Claude 全系列与 Codex 系列模型，100% 官方源直供，不掺假不注水，欢迎检验。计费透明，Token 级账单可逐笔核验。
-同时支持企业级高并发，并为企业客户提供了专业的管理平台，企业客户可签订正式合同并开具发票，更多详情进入官网获取联系方式。
-现在通过 <a href="https://pateway.ai/?ch=1tsfr51">此链接</a> 注册即送 $3 试用额度，用户充值低至 6 折，邀请好友双向赠送，邀请奖励可达 $150。</td>
-</tr>
-
-</table>
-
-## 生态项目
-
-围绕 Sub2API 的社区扩展与集成项目：
-
-| 项目 | 说明 | 功能 |
-|------|------|------|
-| ~~[Sub2ApiPay](https://github.com/touwaeriol/sub2apipay)~~ | ~~自助支付系统~~ | **已内置** — 支付功能已集成到 Sub2API 中，无需独立部署。详见 [支付配置指南](docs/PAYMENT_CN.md) |
-| [sub2api-mobile](https://github.com/ckken/sub2api-mobile) | 移动端管理控制台 | 跨平台应用（iOS/Android/Web），支持用户管理、账号管理、监控看板、多后端切换；基于 Expo + React Native 构建 |
 
 ## 技术栈
 
@@ -131,7 +57,7 @@ Sub2API 是一个 AI API 网关平台，用于分发和管理 AI 产品订阅的
 
 ## Nginx 反向代理注意事项
 
-通过 Nginx 反向代理 Sub2API（或 CRS 服务）并搭配 Codex CLI 使用时，需要在 Nginx 配置的 `http` 块中添加：
+通过 Nginx 反向代理 OverflowAI（或 CRS 服务）并搭配 Codex CLI 使用时，需要在 Nginx 配置的 `http` 块中添加：
 
 ```nginx
 underscores_in_headers on;
@@ -157,13 +83,13 @@ Nginx 默认会丢弃名称中含下划线的请求头（如 `session_id`），�
 #### 安装步骤
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Wei-Shaw/sub2api/main/deploy/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/Kluckyyou/overflowai/main/deploy/install.sh | sudo bash
 ```
 
 脚本会自动：
 1. 检测系统架构
 2. 下载最新版本
-3. 安装二进制文件到 `/opt/sub2api`
+3. 安装二进制文件到 `/opt/overflowai`
 4. 创建 systemd 服务
 5. 配置系统用户和权限
 
@@ -171,10 +97,10 @@ curl -sSL https://raw.githubusercontent.com/Wei-Shaw/sub2api/main/deploy/install
 
 ```bash
 # 1. 启动服务
-sudo systemctl start sub2api
+sudo systemctl start overflowai
 
 # 2. 设置开机自启
-sudo systemctl enable sub2api
+sudo systemctl enable overflowai
 
 # 3. 在浏览器中打开设置向导
 # http://你的服务器IP:8080
@@ -198,16 +124,16 @@ sudo systemctl enable sub2api
 
 ```bash
 # 查看状态
-sudo systemctl status sub2api
+sudo systemctl status overflowai
 
 # 查看日志
-sudo journalctl -u sub2api -f
+sudo journalctl -u overflowai -f
 
 # 重启服务
-sudo systemctl restart sub2api
+sudo systemctl restart overflowai
 
 # 卸载
-curl -sSL https://raw.githubusercontent.com/Wei-Shaw/sub2api/main/deploy/install.sh | sudo bash -s -- uninstall -y
+curl -sSL https://raw.githubusercontent.com/Kluckyyou/overflowai/main/deploy/install.sh | sudo bash -s -- uninstall -y
 ```
 
 ---
@@ -227,16 +153,16 @@ curl -sSL https://raw.githubusercontent.com/Wei-Shaw/sub2api/main/deploy/install
 
 ```bash
 # 创建部署目录
-mkdir -p sub2api-deploy && cd sub2api-deploy
+mkdir -p overflowai-deploy && cd overflowai-deploy
 
 # 下载并运行部署准备脚本
-curl -sSL https://raw.githubusercontent.com/Wei-Shaw/sub2api/main/deploy/docker-deploy.sh | bash
+curl -sSL https://raw.githubusercontent.com/Kluckyyou/overflowai/main/deploy/docker-deploy.sh | bash
 
 # 启动服务
 docker compose up -d
 
 # 查看日志
-docker compose logs -f sub2api
+docker compose logs -f overflowai
 ```
 
 **脚本功能：**
@@ -252,8 +178,8 @@ docker compose logs -f sub2api
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/Wei-Shaw/sub2api.git
-cd sub2api/deploy
+git clone https://github.com/Kluckyyou/overflowai.git
+cd overflowai/deploy
 
 # 2. 复制环境配置文件
 cp .env.example .env
@@ -309,7 +235,7 @@ docker compose up -d
 docker compose -f docker-compose.local.yml ps
 
 # 7. 查看日志
-docker compose -f docker-compose.local.yml logs -f sub2api
+docker compose -f docker-compose.local.yml logs -f overflowai
 ```
 
 #### 部署版本对比
@@ -327,7 +253,7 @@ docker compose -f docker-compose.local.yml logs -f sub2api
 
 关键点：
 
-- 主进程固定探测：`/tmp/sub2api-datamanagement.sock`
+- 主进程固定探测：`/tmp/overflowai-datamanagement.sock`
 - 只有该 Socket 可连通时，数据管理功能才会开启
 - Docker 场景需将宿主机 Socket 挂载到容器同路径
 
@@ -339,7 +265,7 @@ docker compose -f docker-compose.local.yml logs -f sub2api
 
 如果管理员密码是自动生成的，在日志中查找：
 ```bash
-docker compose -f docker-compose.local.yml logs sub2api | grep "admin password"
+docker compose -f docker-compose.local.yml logs overflowai | grep "admin password"
 ```
 
 #### 升级
@@ -358,14 +284,14 @@ docker compose -f docker-compose.local.yml up -d
 # 源服务器
 docker compose -f docker-compose.local.yml down
 cd ..
-tar czf sub2api-complete.tar.gz sub2api-deploy/
+tar czf overflowai-complete.tar.gz overflowai-deploy/
 
 # 传输到新服务器
-scp sub2api-complete.tar.gz user@new-server:/path/
+scp overflowai-complete.tar.gz user@new-server:/path/
 
 # 新服务器
-tar xzf sub2api-complete.tar.gz
-cd sub2api-deploy/
+tar xzf overflowai-complete.tar.gz
+cd overflowai-deploy/
 docker compose -f docker-compose.local.yml up -d
 ```
 
@@ -403,8 +329,8 @@ rm -rf data/ postgres_data/ redis_data/
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/Wei-Shaw/sub2api.git
-cd sub2api
+git clone https://github.com/Kluckyyou/overflowai.git
+cd overflowai
 
 # 2. 安装 pnpm（如果还没有安装）
 npm install -g pnpm
@@ -417,7 +343,7 @@ pnpm run build
 
 # 4. 编译后端（嵌入前端）
 cd ../backend
-go build -tags embed -o sub2api ./cmd/server
+go build -tags embed -o overflowai ./cmd/server
 
 # 5. 创建配置文件
 cp ../deploy/config.example.yaml ./config.yaml
@@ -441,7 +367,7 @@ database:
   port: 5432
   user: "postgres"
   password: "your_password"
-  dbname: "sub2api"
+  dbname: "overflowai"
 
 redis:
   host: "localhost"
@@ -549,7 +475,7 @@ Invalid base URL: invalid url scheme: http
 
 ```bash
 # 6. 运行应用
-./sub2api
+./overflowai
 ```
 
 #### HTTP/2 (h2c) 与 HTTP/1.1 回退
@@ -572,7 +498,7 @@ curl --http2-prior-knowledge -I http://localhost:8080/health
 # HTTP/1.1 回退
 curl --http1.1 -I http://localhost:8080/health
 # WebSocket 回退验证（需管理员 token）
-websocat -H="Sec-WebSocket-Protocol: sub2api-admin, jwt.<ADMIN_TOKEN>" ws://localhost:8080/api/v1/admin/ops/ws/qps
+websocat -H="Sec-WebSocket-Protocol: overflowai-admin, jwt.<ADMIN_TOKEN>" ws://localhost:8080/api/v1/admin/ops/ws/qps
 ```
 
 #### 开发模式
@@ -611,7 +537,7 @@ go generate ./cmd/server
 
 ## Antigravity 使用说明
 
-Sub2API 支持 [Antigravity](https://antigravity.so/) 账户，授权后可通过专用端点访问 Claude 和 Gemini 模型。
+OverflowAI 支持 [Antigravity](https://antigravity.so/) 账户，授权后可通过专用端点访问 Claude 和 Gemini 模型。
 
 ### 专用端点
 
@@ -642,7 +568,7 @@ Antigravity 账户支持可选的**混合调度**功能。开启后，通用端�
 ## 项目结构
 
 ```
-sub2api/
+overflowai/
 ├── backend/                  # Go 后端服务
 │   ├── cmd/server/           # 应用入口
 │   ├── internal/             # 内部模块
@@ -674,18 +600,6 @@ sub2api/
 > :rotating_light: **服务条款风险**: 使用本项目可能违反 Anthropic 的服务条款。请在使用前仔细阅读 Anthropic 的用户协议，使用本项目的一切风险由用户自行承担。
 >
 > :book: **免责声明**: 本项目仅供技术学习和研究使用，作者不对因使用本项目导致的账户封禁、服务中断或其他损失承担任何责任。
-
----
-
-## Star History
-
-<a href="https://star-history.com/#Wei-Shaw/sub2api&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Wei-Shaw/sub2api&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Wei-Shaw/sub2api&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Wei-Shaw/sub2api&type=Date" />
- </picture>
-</a>
 
 ---
 

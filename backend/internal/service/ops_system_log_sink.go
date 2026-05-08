@@ -11,8 +11,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/pkg/logger"
-	"github.com/Wei-Shaw/sub2api/internal/util/logredact"
+	"github.com/Kluckyyou/overflowai/internal/pkg/logger"
+	"github.com/Kluckyyou/overflowai/internal/util/logredact"
 )
 
 type OpsSystemLogSinkHealth struct {

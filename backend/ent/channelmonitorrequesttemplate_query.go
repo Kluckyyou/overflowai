@@ -13,9 +13,9 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/Wei-Shaw/sub2api/ent/channelmonitor"
-	"github.com/Wei-Shaw/sub2api/ent/channelmonitorrequesttemplate"
-	"github.com/Wei-Shaw/sub2api/ent/predicate"
+	"github.com/Kluckyyou/overflowai/ent/channelmonitor"
+	"github.com/Kluckyyou/overflowai/ent/channelmonitorrequesttemplate"
+	"github.com/Kluckyyou/overflowai/ent/predicate"
 )
 
 // ChannelMonitorRequestTemplateQuery is the builder for querying ChannelMonitorRequestTemplate entities.

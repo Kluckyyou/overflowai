@@ -14,13 +14,13 @@ import (
 
 	"entgo.io/ent/dialect"
 	entsql "entgo.io/ent/dialect/sql"
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/ent/authidentity"
-	"github.com/Wei-Shaw/sub2api/ent/authidentitychannel"
-	"github.com/Wei-Shaw/sub2api/ent/identityadoptiondecision"
-	dbpredicate "github.com/Wei-Shaw/sub2api/ent/predicate"
-	infraerrors "github.com/Wei-Shaw/sub2api/internal/pkg/errors"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/ent/authidentity"
+	"github.com/Kluckyyou/overflowai/ent/authidentitychannel"
+	"github.com/Kluckyyou/overflowai/ent/identityadoptiondecision"
+	dbpredicate "github.com/Kluckyyou/overflowai/ent/predicate"
+	infraerrors "github.com/Kluckyyou/overflowai/internal/pkg/errors"
+	"github.com/Kluckyyou/overflowai/internal/service"
 )
 
 var (

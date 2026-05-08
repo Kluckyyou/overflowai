@@ -3,10 +3,10 @@ package routes
 import (
 	"net/http"
 
-	"github.com/Wei-Shaw/sub2api/internal/config"
-	"github.com/Wei-Shaw/sub2api/internal/handler"
-	"github.com/Wei-Shaw/sub2api/internal/server/middleware"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/Kluckyyou/overflowai/internal/config"
+	"github.com/Kluckyyou/overflowai/internal/handler"
+	"github.com/Kluckyyou/overflowai/internal/server/middleware"
+	"github.com/Kluckyyou/overflowai/internal/service"
 
 	"github.com/gin-gonic/gin"
 )

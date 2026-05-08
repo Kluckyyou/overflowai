@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/ent/paymentproviderinstance"
-	"github.com/Wei-Shaw/sub2api/internal/payment"
-	"github.com/Wei-Shaw/sub2api/internal/payment/provider"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/ent/paymentproviderinstance"
+	"github.com/Kluckyyou/overflowai/internal/payment"
+	"github.com/Kluckyyou/overflowai/internal/payment/provider"
 )
 
 // --- Order Status Constants ---

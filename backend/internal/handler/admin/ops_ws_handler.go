@@ -15,8 +15,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Wei-Shaw/sub2api/internal/pkg/logger"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	"github.com/Kluckyyou/overflowai/internal/pkg/logger"
+	"github.com/Kluckyyou/overflowai/internal/service"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
 )
@@ -47,9 +47,9 @@ var upgrader = websocket.Upgrader{
 		return isAllowedOpsWSOrigin(r)
 	},
 	// Subprotocol negotiation:
-	// - The frontend passes ["sub2api-admin", "jwt.<token>"].
-	// - We always select "sub2api-admin" so the token is never echoed back in the handshake response.
-	Subprotocols: []string{"sub2api-admin"},
+	// - The frontend passes ["overflowai-admin", "jwt.<token>"].
+	// - We always select "overflowai-admin" so the token is never echoed back in the handshake response.
+	Subprotocols: []string{"overflowai-admin"},
 }
 
 const (

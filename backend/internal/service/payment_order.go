@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/ent/paymentorder"
-	"github.com/Wei-Shaw/sub2api/internal/payment"
-	"github.com/Wei-Shaw/sub2api/internal/payment/provider"
-	infraerrors "github.com/Wei-Shaw/sub2api/internal/pkg/errors"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/ent/paymentorder"
+	"github.com/Kluckyyou/overflowai/internal/payment"
+	"github.com/Kluckyyou/overflowai/internal/payment/provider"
+	infraerrors "github.com/Kluckyyou/overflowai/internal/pkg/errors"
 )
 
 // --- Order Creation ---
@@ -471,7 +471,7 @@ func (s *PaymentService) buildPaymentSubject(plan *dbent.SubscriptionPlan, limit
 		if plan.ProductName != "" {
 			return plan.ProductName
 		}
-		return "Sub2API Subscription " + plan.Name
+		return "OverflowAI Subscription " + plan.Name
 	}
 	amountStr := strconv.FormatFloat(limitAmount, 'f', 2, 64)
 	pf := strings.TrimSpace(cfg.ProductNamePrefix)
@@ -479,7 +479,7 @@ func (s *PaymentService) buildPaymentSubject(plan *dbent.SubscriptionPlan, limit
 	if pf != "" || sf != "" {
 		return strings.TrimSpace(pf + " " + amountStr + " " + sf)
 	}
-	return "Sub2API " + amountStr + " CNY"
+	return "OverflowAI " + amountStr + " CNY"
 }
 
 func (s *PaymentService) maybeBuildWeChatOAuthRequiredResponse(ctx context.Context, req CreateOrderRequest, amount, payAmount, feeRate float64) (*CreateOrderResponse, error) {

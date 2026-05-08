@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"fmt"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/ent/channelmonitor"
-	"github.com/Wei-Shaw/sub2api/ent/channelmonitorrequesttemplate"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/ent/channelmonitor"
+	"github.com/Kluckyyou/overflowai/ent/channelmonitorrequesttemplate"
+	"github.com/Kluckyyou/overflowai/internal/service"
 )
 
 // channelMonitorRequestTemplateRepository 实现 service.ChannelMonitorRequestTemplateRepository。

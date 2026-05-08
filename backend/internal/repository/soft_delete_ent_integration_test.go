@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	dbent "github.com/Wei-Shaw/sub2api/ent"
-	"github.com/Wei-Shaw/sub2api/ent/apikey"
-	"github.com/Wei-Shaw/sub2api/ent/schema/mixins"
-	"github.com/Wei-Shaw/sub2api/ent/usersubscription"
-	"github.com/Wei-Shaw/sub2api/internal/service"
+	dbent "github.com/Kluckyyou/overflowai/ent"
+	"github.com/Kluckyyou/overflowai/ent/apikey"
+	"github.com/Kluckyyou/overflowai/ent/schema/mixins"
+	"github.com/Kluckyyou/overflowai/ent/usersubscription"
+	"github.com/Kluckyyou/overflowai/internal/service"
 	"github.com/stretchr/testify/require"
 )
 
